@@ -14,7 +14,13 @@
 	border-width: 0 2px 0 2px;
 	box-shadow : inset 0 0 2px black;
 }
+::-webkit-scrollbar-thumb:horizontal {
+	border-width: 2px 0 2px 0;
+}
 ::-webkit-scrollbar-thumb:hover {
 	background : rgba(0, 0, 0, .60);
+}
+::-webkit-scrollbar-corner{
+	background :  #dddddd;
 }
 
