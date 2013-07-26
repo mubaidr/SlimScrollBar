@@ -4,14 +4,16 @@
 		"128" : "img/icon.png"
 	},
 	"content_scripts" : [{
-			"matches" : ["<all_urls>","opera://*/*"],
+			"all_frames": true,
+			"matches" : ["<all_urls>", "opera://*/*"],
 			"css" : ["css/ext.css"]
 		}
 	],
 	"version" : "2.0",
 	"manifest_version" : 2,
 	"developer" : {
-		"name" : "mubaidr"
+		"name" : "mubaidr",		
+		"url": "http://my.opera.com/mubaidr/"
 	},
 	"permissions" : ["<all_urls>"],
 	"name" : "Slim Scroll bar"
