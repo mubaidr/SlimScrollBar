@@ -15,6 +15,7 @@
 		"name" : "mubaidr",		
 		"url": "http://my.opera.com/mubaidr/"
 	},
+	"homepage_url": "http://my.opera.com/mubaidr/blog/",
 	"permissions" : ["<all_urls>"],
 	"name" : "Slim Scroll bar"
 }
